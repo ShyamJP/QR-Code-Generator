@@ -16,7 +16,7 @@ if(true){
         return;  //if input is empty then return from here
         generateBtn.innerText = "Generate QR code...";
     
-        qrimage.src=`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${qrvalue}`;
+        qrimage.src=`API`;
         qrimage.addEventListener("load",() =>{
             wrapper.classList.add("active");
     
